@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My PixiJS Game</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default margin */
+            background-color: #f0f0f0; /* Optional: Background color */
+        }
+        .log-message {
+            opacity: 1;
+            transition: opacity 5s ease;
+        }
+        .fade-out {
+        opacity: 0;
+        }
+
+
+        /* Additional styles for your game container or other elements can go here */
+    </style>
+</head>
+<body>
+    <div id="log-container" style="position: absolute; left: 10px; bottom: 10px; max-width: 300px; color: black; font-family: Arial, sans-serif; font-size: 14px;"></div>
+    <script src="bundle.js"></script>
+</body>
+</html>

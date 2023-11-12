@@ -25,4 +25,5 @@ Server needs this call dalle and chat gpt.. its pretty cheap though !!
 
 ## interesting tidbits
 * I pass an SNES title for style alignment. This was kind of a /hack/ to make sure the generated sprites artistically align.
-* I ask for the genre in the json response to get some /precognition/ from language model so the characters it suggests fit within. I don't actually /use/ it. 
+* I ask for the genre in the json response to get some /precognition/ from language model so the characters it suggests fit within. I don't actually /use/ it.
+* We use a mask to render the image so we don't have to scale down anything. dalle's minimum size is 256x256 but we want smaller.

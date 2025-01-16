@@ -1,6 +1,6 @@
 # DALLE-SLAYER
 
-https://www.youtube.com/watch?v=4MNzDdxStv0
+demo - https://www.youtube.com/watch?v=4MNzDdxStv0
 
 Dalle-slayer is a vampire survivor clone with auto generated graphics from dalle. 
 
